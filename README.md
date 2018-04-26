@@ -1,1 +1,1 @@
-[![Image Layer IO](https://codeburst.io/aws-lambda-functions-made-easy-1fae0feeab27)](./abc/variables.md)
+[![Image Layer IO](https://cdn-images-1.medium.com/max/1600/1*CAS2UKlhVhNT8O_TzD-YpA@2x.png)](./abc/variables.md)
