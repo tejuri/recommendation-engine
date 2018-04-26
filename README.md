@@ -30,9 +30,9 @@ In this case we have a s3 trigger which starts the execution of lambda function 
 ### SFTP
 
 It contains three different modules which extends terraform module from commerical cloud modules. 
-	* [VPC]() 
-	* [ECS]()
-	* [S3]()
+* [VPC](https://github.optum.com/PE-IAC-AWS/aws_vpc) 
+* [ECS](https://github.optum.com/PE-IAC-AWS/aws_ecs) 
+* [S3](https://github.optum.com/PE-IAC-AWS/aws_s3)
 	
 ![SFTP](./images/SFTP.png)
 
