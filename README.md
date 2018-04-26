@@ -1,6 +1,6 @@
 # EDP-INFRA
 
-This repo contains all the required modules to create edp infrastucture.It basically contains configurations as tfvars files for every environment and remote state configuration. Remote state is maintained in S3 and creation of DynamoDB lock table and S3 bucket for state is created only once.
+This repo contains all the required modules to create edp infrastructure.It basically contains configurations as tfvars files for every environment and remote state configuration. Remote state is maintained in S3 and creation of DynamoDB lock table and S3 bucket for state is created only once.
 
 NOTE:
 Terraform is used to launch the aws services. Jenkins is required to integrate with Terraform so that terraform is available in the node.
@@ -8,6 +8,8 @@ Terraform is used to launch the aws services. Jenkins is required to integrate w
 Other Repo has maintains Jenkinsfile. As part of this Jenkins file, repo should specify what aws services it has to deploy.Jenkinsfile maintains configuration that is the sequence in which this service needs to be deployed.
 
 Environment specific configuration: Running Mode is passed through environment variable. Use the corresponding tfvars file for given environment used inside each script folder in edp_infra repo. 
+
+
 
 There are two differnt scripts folders:
 
